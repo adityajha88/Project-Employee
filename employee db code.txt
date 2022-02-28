@@ -1,0 +1,11 @@
+create table employee
+(ID int(11) primary key,
+Name varchar(20),
+Department int(11),
+Salary decimal(6,2))
+
+insert into employee values(7566,'Jones',20,2975),
+(7738,'Jack',30,4000),
+(7788,'Scott',40,3000),
+(7839,'king',20,5000),
+(7844,'Turner',20,1500)
